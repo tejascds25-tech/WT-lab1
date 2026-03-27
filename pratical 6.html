@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scholarship / Seminar Registration Form</title>
+</head>
+<body>
+
+<h2>Scholarship / Seminar Registration Form</h2>
+
+<form>
+
+    <!-- Personal Details -->
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        Name: <input type="text" name="name"><br><br>
+
+        Email: <input type="email" name="email"><br><br>
+
+        Phone Number: <input type="text" name="phone"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+    </fieldset>
+
+    <!-- Academic Details -->
+    <fieldset>
+        <legend>Academic Details</legend>
+
+        Course:
+        <select name="course">
+            <option value="">--Select Course--</option>
+            <option value="engineering">Engineering</option>
+            <option value="medical">Medical</option>
+            <option value="commerce">Commerce</option>
+            <option value="arts">Arts</option>
+        </select>
+        <br><br>
+
+        Year:
+        <select name="year">
+            <option value="">--Select Year--</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+        </select>
+        <br><br>
+
+    </fieldset>
+
+    <!-- Seminar / Scholarship Selection -->
+    <fieldset>
+        <legend>Selection</legend>
+
+        Apply For:
+        <input type="radio" name="apply" value="scholarship"> Scholarship
+        <input type="radio" name="apply" value="seminar"> Seminar
+        <br><br>
+
+        Interested Topics:
+        <input type="checkbox" name="topic" value="ai"> AI
+        <input type="checkbox" name="topic" value="robotics"> Robotics
+        <input type="checkbox" name="topic" value="web"> Web Development
+        <input type="checkbox" name="topic" value="data"> Data Science
+        <br><br>
+
+    </fieldset>
+
+    <!-- Submit -->
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
