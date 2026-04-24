@@ -1,78 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>H SECTION</title>
+    <title>My Sample Web Page</title>
 </head>
-
 <body>
 
-<h2 align="center">College Time Table</h2>
+    <h1 id="top">Welcome to My Web Page</h1>
 
-<table border="1" cellpadding="10">
+    <!-- Navigation Links -->
+    <h2>Navigation</h2>
+    <ul>
+        <li><a href="#about">Go to About Section (Internal Link)</a></li>
+        <li><a href="#contact">Go to Contact Section (Internal Link)</a></li>
+        <li><a href="https://www.wikipedia.org" target="_blank">
+            Visit Wikipedia (External Link)
+        </a></li>
+    </ul>
 
-<tr>
-<th>Day</th>
-<th>Lecture 1<br>10:30-11:30</th>
-<th>Lecture 2<br>11:30-12:30</th>
-<th>Lecture 3<br>12:30-1:30</th>
-<th>Break<br>1:30-2:30</th>
-<th>Lecture 4<br>2:30-1:30</th>
-<th>Lecture 5<br>3:30-2:30</th>
-<th>Lecture 6<br>4:30-3:30</th>
-</tr>
+    <!-- About Section -->
+    <h2 id="about">About Us</h2>
+    <p>This page demonstrates different HTML list types and links.</p>
 
-<tr>
-<td>Monday</td>
-<td>EGD (HR) (B202) </td>
-<td>EGD (HR) (B202)</td>
-<td>CLUB HOUR/NPTEL</td>
-<td rowspan="5">Break</td>
-<td>ICLA (YP) (B202)</td>
-<td>PRATICAL H1</td>
-<td>PRATICAL H1</td>
-</tr>
+    <!-- Unordered List -->
+    <h3>Our Services (Unordered List)</h3>
+    <ul>
+        <li>Web Design</li>
+        <li>Web Development</li>
+        <li>SEO Optimization</li>
+    </ul>
 
-<tr>
-<td>Tuesday</td>
-<td>IKS (NC) </td>
-<td>PRATICAL H2</td>
-<td>PRATICAL H2</td>
-<td>TUTORIAL</td>
-<td>LLC 1</td>
-<td>LLC 1</td>
-</tr>
+    <!-- Ordered List -->
+    <h3>Steps to Build a Website (Ordered List)</h3>
+    <ol>
+        <li>Plan the structure</li>
+        <li>Design the layout</li>
+        <li>Write HTML code</li>
+        <li>Test in browser</li>
+    </ol>
 
-<tr>
-<td>Wednesday</td>
-<td>EGDL (HB)</td>
-<td>EGDL (HB)</td>
-<td>TUTORIAL</td>
-<td>SMP (RR)</td>
-<td>LLC 1 (MM)</td>
-<td>IKS (PH)</td>
-</tr>
+    <!-- Description List -->
+    <h3>Web Technologies (Description List)</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language - Used to create web pages.</dd>
 
-<tr>
-<td>Thursday</td>
-<td>EGDL (HB)</td>
-<td>EGDL (HB)</td>
-<td>MAKEUP CLASS</td>
-<td>TG (SMK)</td>
-<td>SMP (RR)</td>
-<td>SELF LEARNING</td>
-</tr>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets - Used to style web pages.</dd>
 
-<tr>
-<td>Friday</td>
-<td>WEB DESIGNING LAB </td>
-<td>WEB DESIGNING LAB</td>
-<td>AP (YS)</td>
-<td>ICLA (YP)</td>
-<td>MAKEUP CLASS</td>
-<td>Sports</td>
-</tr>
+        <dt>JavaScript</dt>
+        <dd>Programming language used to add interactivity.</dd>
+    </dl>
 
-</table>
+    <!-- Image -->
+    <h3>Sample Image</h3>
+    <img src="https://via.placeholder.com/300"
+         alt="Sample Placeholder Image"
+         width="300">
+
+    <!-- Contact Section -->
+    <h2 id="contact">Contact Us</h2>
+    <p>
+        Email us at:
+        <a href="mailto:info@example.com">info@example.com</a>
+    </p>
+
+    <!-- Back to Top Internal Link -->
+    <p>
+        <a href="#top">Back to Top</a>
+    </p>
 
 </body>
 </html>
