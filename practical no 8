@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeVerse Gallery</title>
+    <link rel="stylesheet" href="external gallery.css">
+</head>
+<body>
+    <header>
+        <h1>ANIME<span>VERSE</span></h1>
+        <p>Explore your favorite legends</p>
+    </header>
+
+    <main class="gallery">
+        <!-- Character Card 1 -->
+        <div class="anime-card">
+            <img src="https://images.unsplash.com" alt="Gojo">
+            <div class="card-overlay">
+                <div class="card-info">
+                    <h3>Gojo Satoru</h3>
+                    <p>Jujutsu Kaisen</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Character Card 2 -->
+        <div class="anime-card">
+            <img src="https://images.unsplash.com" alt="Naruto">
+            <div class="card-overlay">
+                <div class="card-info">
+                    <h3>Naruto Uzumaki</h3>
+                    <p>Hidden Leaf Village</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Character Card 3 -->
+        <div class="anime-card">
+            <img src="https://images.unsplash.com" alt="Luffy">
+            <div class="card-overlay">
+                <div class="card-info">
+                    <h3>Monkey D. Luffy</h3>
+                    <p>Straw Hat Pirates</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
