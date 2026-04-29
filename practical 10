@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iframe Demo</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* Layout */
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+}
+/* Sidebar */
+.sidebar {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.sidebar a:hover {
+    color: yellow;
+}
+/* Main content */
+.main {
+    padding: 10px;
+}
+/* iframe styling */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <a href="https://www.wikipedia.org" target="contentFrame">Wikipedia</a>
+        <a href="https://www.example.com" target="contentFrame">Example Site</a>
+        <a href="https://www.openstreetmap.org" target="contentFrame">OpenStreetMap</a>
+    </div>
+    <!-- Main iframe -->
+    <div class="main">
+        <iframe name="contentFrame" src="https://www.example.com"></iframe>
+    </div>
+</div>
+<hr>
+<!-- Google Maps Embed -->
+<h2 style="text-align:center;">Embedded Map</h2>
+<div style="width:100%; height:400px;">
+    <iframe 
+        src="https://www.google.com/maps?q=Nagpur&output=embed"
+        width="100%" 
+        height="100%" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</div>
+<hr>
+<!-- External Website Embed -->
+<h2 style="text-align:center;">Embedded External Page</h2>
+<div style="width:100%; height:500px;">
+    <iframe src="https://www.wikipedia.org"></iframe>
+</div>
+</body>
+</html>
